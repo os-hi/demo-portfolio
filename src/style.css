@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #18181A;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navContainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+.logo{
+    font-size: 25px;
+    border-bottom: 1px solid white;
+}
+nav{
+    width: 40%;
+}
+.navbar{
+    font-size: 25px;
+    list-style-type: none;
+    display: flex;
+    border-bottom: 1px solid white;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 80%;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+.profilePicture{
+    width: 300px;
+    height: 300px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 8px;
+}
+h4{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.positionTitle{
+    text-align: end;
+}
+#about{
+    margin-top: 50px;
+}
+.aboutMe{
+    padding: 15px 35px;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-size: 18px;
+}
+#skills{
+    margin-top: 50px;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px 35px;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-size: 18px;
+}
+#projects{
+    margin-top: 50px;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px;
+}
+.project{
+    width: 350px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+    border: 1px solid white;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 15px;
+}
+
+@media (min-width: 640px){
+    header{
+        display: none;
+    }
+}
+@media (min-width: 768px){
+    header{
+        display: flex;
+    }
+}
